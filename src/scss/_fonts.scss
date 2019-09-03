@@ -1,0 +1,78 @@
+@import "_mixins/font-face";
+
+// @include font-face("Baron", "../fonts/Baron/BaronBlack/BaronBlack", 900)
+// @include font-face("Baron", "../fonts/Baron/BaronBold/BaronBold", 700)
+
+// @include font-face("FiraSans", "../fonts/FiraSans/FiraSansRegular/FiraSansRegular", 400)
+
+// @include font-face("GreatVibes", "../fonts/GreatVibes/GreatVibes", 400)
+
+// @include font-face("Jaapokkienchance", "../fonts/Jaapokki/JaapokkienchanceRegular/JaapokkienchanceRegular", 400)
+// @include font-face("Jaapokki", "../fonts/Jaapokki/JaapokkiRegular/JaapokkiRegular", 400)
+// @include font-face("Jaapokkisubtract", "../fonts/Jaapokki/JaapokkisubtractRegular/JaapokkisubtractRegular", 400)
+
+// @include font-face("Lato", "../fonts/Lato/LatoBlack/LatoBlack", 900)
+// @include font-face("Lato", "../fonts/Lato/LatoBold/LatoBold", 700)
+// @include font-face("Lato", "../fonts/Lato/LatoRegular/LatoRegular", 400)
+// @include font-face("Lato", "../fonts/Lato/LatoLight/LatoLight", 300)
+// @include font-face("Lato", "../fonts/Lato/LatoThin/LatoThin", 100)
+
+// @include font-face("MuseoSans", "../fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack", 900)
+// @include font-face("MuseoSans", "../fonts/MuseoSans/MuseoSansBold/MuseoSansBold", 700)
+// @include font-face("MuseoSans", "../fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium", 500)
+// @include font-face("MuseoSans", "../fonts/MuseoSans/MuseoSansLight/MuseoSansLight", 300)
+// @include font-face("MuseoSans", "../fonts/MuseoSans/MuseoSansThin/MuseoSansThin", 100)
+
+// @include font-face("MyriadSetPro", "../fonts/MyriadSetPro/MyriadSetProSemiBold/MyriadSetProSemiBold", 600)
+// @include font-face("MyriadSetPro", "../fonts/MyriadSetPro/MyriadSetProText/MyriadSetProText", 400)
+// @include font-face("MyriadSetPro", "../fonts/MyriadSetPro/MyriadSetProThin/MyriadSetProThin", 100)
+
+// @include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaBlack/ProximaNovaBlack", 900)
+// @include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaExtraBold/ProximaNovaExtraBold", 800)
+// @include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaBold/ProximaNovaBold", 700)
+// @include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaSemiBold/ProximaNovaSemiBold", 600)
+// @include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaMedium/ProximaNovaMedium", 500)
+// @include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaRegular/ProximaNovaRegular", 400)
+// @include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaLight/ProximaNovaLight", 300)
+// @include font-face("ProximaNova", "../fonts/ProximaNova/ProximaNovaThin/ProximaNovaThin", 100)
+
+// @include font-face("Raleway", "../fonts/Raleway/RalewayExtraBold/RalewayExtraBold", 800)
+// @include font-face("Raleway", "../fonts/Raleway/RalewayBold/RalewayBold", 700)
+// @include font-face("Raleway", "../fonts/Raleway/RalewaySemiBold/RalewaySemiBold", 600)
+// @include font-face("Raleway", "../fonts/Raleway/RalewayRegular/RalewayRegular", 400)
+// @include font-face("Raleway", "../fonts/Raleway/RalewayLight/RalewayLight", 300)
+// @include font-face("Raleway", "../fonts/Raleway/RalewayThin/RalewayThin", 100)
+
+// @include font-face("Roboto", "../fonts/Roboto/RobotoBlack/RobotoBlack", 900)
+// @include font-face("Roboto", "../fonts/Roboto/RobotoBold/RobotoBold", 700)
+// @include font-face("Roboto", "../fonts/Roboto/RobotoMedium/RobotoMedium", 500)
+// @include font-face("Roboto", "../fonts/Roboto/RobotoRegular/RobotoRegular", 400)
+// @include font-face("Roboto", "../fonts/Roboto/RobotoLight/RobotoLight", 300)
+
+// @include font-face("OpenSans", "../fonts/OpenSans/OpenSansExtraBold/OpenSansExtraBold", 800)
+// @include font-face("OpenSans", "../fonts/OpenSans/OpenSansBold/OpenSansBold", 700)
+// @include font-face("OpenSans", "../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold", 600)
+// @include font-face("OpenSans", "../fonts/OpenSans/OpenSansRegular/OpenSansRegular", 400)
+// @include font-face("OpenSans", "../fonts/OpenSans/OpenSansLight/OpenSansLight", 300)
+
+@include font-face(
+  "RobotoCondensed",
+  "../fonts/RobotoCondensed/RobotoCondensedBold/RobotoCondensedBold",
+  700
+);
+@include font-face(
+  "RobotoCondensed",
+  "../fonts/RobotoCondensed/RobotoCondensedRegular/RobotoCondensedRegular",
+  400
+);
+@include font-face(
+  "RobotoCondensed",
+  "../fonts/RobotoCondensed/RobotoCondensedLight/RobotoCondensedLight",
+  300
+);
+
+@include font-face(
+  "Marmelad",
+  "../fonts/Marmelad/MarmeladRegular/MarmeladRegular",
+  400
+);

@@ -1,0 +1,43 @@
+// Project Variables
+@include reset();
+
+@import "../fonts";
+@import "../_mixins/mixins";
+
+// .debug {
+//   @include debug(rgba(0, 0, 0, 0.5), 1px solid aqua);
+// }
+
+.wrapper {
+  @include wrapper();
+}
+
+//Settings for the `<body>` element.
+$body-bg: #fff777;
+$font-size: 16px;
+
+// Typography
+$font-family-base: "RobotoCondensed", sans-serif;
+$font-family-second: sans-serif;
+
+// Colors
+$color-light: #fff;
+$color-gray: #eee;
+$color-dark: #161418;
+$color-link: #2b2a29;
+
+$text-color: #000;
+
+$active-color: #5cca2c;
+$active-color-dark: #ff4b33;
+
+$speed: 0.6s;
+$delay: ($speed * 0.5);
+$easing: cubic-bezier(0.55, 0, 0.1, 1);
+
+// Media
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$xs: 320px;

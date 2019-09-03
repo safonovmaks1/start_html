@@ -1,0 +1,33 @@
+@mixin sectionPadding($padding) {
+  padding: $padding 0;
+}
+
+@mixin easeOut {
+  transition: all $speed $easing;
+  transition-delay: $delay;
+}
+
+@mixin sizes($a, $b: $a) {
+  width: $a;
+  height: $b;
+}
+
+@mixin ls($spacing) {
+  margin-right: -$spacing;
+  letter-spacing: $spacing;
+}
+
+@mixin flexCenter($direction) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin styleText($fontsize, $fontweight) {
+  font-family: $font-family-base;
+  font-size: $fontsize;
+  font-weight: $fontweight;
+  color: $text-color;
+  text-transform: uppercase;
+}

@@ -1,0 +1,53 @@
+/* ==========  Desktop First  ========== */
+
+/* Large Devices, Wide Screens xl */
+@media screen and (max-width: $xl) {
+  /* Content */
+}
+
+/* Medium Devices, Desktops lg */
+@media screen and (max-width: $lg) {
+  /* Content */
+}
+
+/* Small Devices, Tablets md */
+@media screen and (max-width: $md) {
+  /* Content */
+}
+
+/* Extra Small Devices, Phones sm */
+@media screen and (max-width: $sm) {
+  /* Content */
+}
+
+/* Custom, iPhone Retina xs */
+@media screen and (max-width: $xs) {
+  /* Content */
+}
+
+/* ==========  Mobile First  ========== */
+
+/* Custom, iPhone Retina */
+@media screen and (min-width: $xs) {
+  /* Content */
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (min-width: $sm) {
+  /* Content */
+}
+
+/* Small Devices, Tablets */
+@media screen and (min-width: $md) {
+  /* Content */
+}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width: $lg) {
+  /* Content */
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (min-width: $xl) {
+  /* Content */
+}

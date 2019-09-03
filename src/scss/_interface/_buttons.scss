@@ -1,0 +1,31 @@
+юигеещтб .button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0.5em 1em calc(0.5em);
+  font-family: $font-family-base;
+  font-size: 16px;
+  font-weight: 600;
+  color: $color-dark;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all $speed $easing;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+    transform: scale(1.01);
+    transform: translateY(2px);
+  }
+}

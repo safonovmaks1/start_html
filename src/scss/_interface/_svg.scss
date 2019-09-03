@@ -1,0 +1,22 @@
+.icon {
+  @include sizes(30px);
+
+  fill: #000;
+}
+
+.badge__icon {
+  margin-right: 20px;
+  fill: #c6c00b;
+}
+
+.mobile__icon {
+  fill: #fff;
+}
+
+.production__icon {
+  @include sizes(20px);
+}
+
+.close__icon {
+  @include sizes(1.75em);
+}
